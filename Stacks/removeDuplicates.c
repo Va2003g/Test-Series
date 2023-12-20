@@ -54,7 +54,7 @@ int size(Stack *stack)
     return stack->size;
 }
 
-int top(Stack *stack)
+char top(Stack *stack)
 {
     if (stack->size == 0)
     {
